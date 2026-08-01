@@ -1,0 +1,19 @@
+# Compiled Java
+*.class
+*.jar
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS
+desktop.ini
+Thumbs.db
+.DS_Store
