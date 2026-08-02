@@ -27,13 +27,19 @@ if (Test-Path $folder) {
 
 New-Item -ItemType Directory -Path $folder | Out-Null
 
-@"
+# UTF-8 without BOM. PowerShell 5.1's -Encoding utf8 writes a BOM, which javac
+# can reject, and Get-Content defaults to ANSI on read - that combination
+# corrupts any non-ASCII character it round-trips.
+$utf8 = New-Object System.Text.UTF8Encoding($false)
+
+$solution = @"
 class Solution {
     // TODO: paste your accepted solution here
 }
-"@ | Out-File (Join-Path $folder 'Solution.java') -Encoding utf8
+"@
+[System.IO.File]::WriteAllText((Join-Path $folder 'Solution.java'), $solution, $utf8)
 
-@"
+$problemReadme = @"
 # $Number. $Title
 
 **Difficulty:** $Difficulty
@@ -52,14 +58,15 @@ TODO
 
 - **Time:** O(?)
 - **Space:** O(?)
-"@ | Out-File (Join-Path $folder 'README.md') -Encoding utf8
+"@
+[System.IO.File]::WriteAllText((Join-Path $folder 'README.md'), $problemReadme, $utf8)
 
 # Add a row to the progress table in the root README
 $readme = Join-Path $root 'README.md'
 $topicText = if ($Topics) { $Topics } else { '-' }
 $row = "| $Number | [$Title](https://leetcode.com/problems/$slug/) | $Difficulty | $topicText | [Java](./$padded-$slug/Solution.java) |"
 
-$lines = [System.Collections.Generic.List[string]](Get-Content $readme)
+$lines = [System.Collections.Generic.List[string]][System.IO.File]::ReadAllLines($readme, [System.Text.Encoding]::UTF8)
 $lastRow = ($lines | Select-String -Pattern '^\| \d+ \|' | Select-Object -Last 1).LineNumber
 if ($lastRow) {
     $lines.Insert($lastRow, $row)
@@ -72,7 +79,7 @@ if ($lastRow) {
             break
         }
     }
-    $lines | Out-File $readme -Encoding utf8
+    [System.IO.File]::WriteAllLines($readme, $lines, $utf8)
 } else {
     Write-Host "Couldn't find the progress table - add the row manually:" -ForegroundColor Yellow
     Write-Host $row

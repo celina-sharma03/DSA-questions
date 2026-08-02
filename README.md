@@ -7,18 +7,19 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 1
+**Total solved:** 2
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Array, Hash Table | [Java](./0001-two-sum/Solution.java) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math, Two Pointers | [Java](./0009-palindrome-number/Solution.java) |
 
 ## Repo layout
 
 ```
 0001-two-sum/
-├── Solution.java   # the solution
-└── README.md       # approach + complexity
+â”œâ”€â”€ Solution.java   # the solution
+â””â”€â”€ README.md       # approach + complexity
 ```
 
 ## Workflow
