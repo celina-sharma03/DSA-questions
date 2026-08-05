@@ -67,9 +67,19 @@ $topicText = if ($Topics) { $Topics } else { '-' }
 $row = "| $Number | [$Title](https://leetcode.com/problems/$slug/) | $Difficulty | $topicText | [Java](./$padded-$slug/Solution.java) |"
 
 $lines = [System.Collections.Generic.List[string]][System.IO.File]::ReadAllLines($readme, [System.Text.Encoding]::UTF8)
-$lastRow = ($lines | Select-String -Pattern '^\| \d+ \|' | Select-Object -Last 1).LineNumber
-if ($lastRow) {
-    $lines.Insert($lastRow, $row)
+$rows = $lines | Select-String -Pattern '^\| (\d+) \|'
+if ($rows) {
+    # Insert in problem-number order, not at the end - solving 13 after 242
+    # should still place it between 9 and 217.
+    $insertAt = $null
+    foreach ($r in $rows) {
+        if ([int]$r.Matches[0].Groups[1].Value -gt $Number) {
+            $insertAt = $r.LineNumber - 1
+            break
+        }
+    }
+    if ($null -eq $insertAt) { $insertAt = ($rows | Select-Object -Last 1).LineNumber }
+    $lines.Insert($insertAt, $row)
 
     # Bump the solved counter to match the number of table rows
     $count = ($lines | Select-String -Pattern '^\| \d+ \|').Count
