@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 8
+**Total solved:** 9
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -16,6 +16,7 @@ time/space complexity.
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | Hash Table, Math, String | [Java](./0012-integer-to-roman/Solution.java) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | Hash Table, Math, String | [Java](./0013-roman-to-integer/Solution.java) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | String, Stack | [Java](./0020-valid-parentheses/Solution.java) |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | String, Backtracking, Dynamic Programming | [Java](./0022-generate-parentheses/Solution.java) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | Array, Two Pointers | [Java](./0026-remove-duplicates-from-sorted-array/Solution.java) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Array, Hash Table, Sorting | [Java](./0217-contains-duplicate/Solution.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Hash Table, String, Sorting | [Java](./0242-valid-anagram/Solution.java) |
