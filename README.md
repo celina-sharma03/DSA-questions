@@ -7,11 +7,12 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 10
+**Total solved:** 11
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Array, Hash Table | [Java](./0001-two-sum/Solution.java) |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | Math | [Java](./0007-reverse-integer/Solution.java) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math, Two Pointers | [Java](./0009-palindrome-number/Solution.java) |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | Hash Table, Math, String | [Java](./0012-integer-to-roman/Solution.java) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | Hash Table, Math, String | [Java](./0013-roman-to-integer/Solution.java) |
