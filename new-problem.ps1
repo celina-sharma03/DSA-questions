@@ -16,7 +16,9 @@ $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
 
 # "Contains Duplicate" -> "contains-duplicate"
-$slug = ($Title.ToLower() -replace "[^a-z0-9]+", "-").Trim('-')
+# Apostrophes are dropped rather than replaced, so "Pascal's Triangle" becomes
+# "pascals-triangle" - matching LeetCode's own slug, not "pascal-s-triangle".
+$slug = ((($Title.ToLower() -replace "['’]", "") -replace "[^a-z0-9]+", "-")).Trim('-')
 $padded = '{0:D4}' -f $Number
 $folder = Join-Path $root "$padded-$slug"
 
