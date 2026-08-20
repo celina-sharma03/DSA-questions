@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 19
+**Total solved:** 20
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -30,6 +30,7 @@ time/space complexity.
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Array, Hash Table, Sorting | [Java](./0217-contains-duplicate/Solution.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Hash Table, String, Sorting | [Java](./0242-valid-anagram/Solution.java) |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | Array, Hash Table, Math, Bit Manipulation, Sorting | [Java](./0268-missing-number/Solution.java) |
+| 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | Hash Table, String | [Java](./0290-word-pattern/Solution.java) |
 
 ## Repo layout
 
