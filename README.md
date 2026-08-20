@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 20
+**Total solved:** 21
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -25,6 +25,7 @@ time/space complexity.
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | Array, Two Pointers, Sorting | [Java](./0075-sort-colors/Solution.java) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | Array, Dynamic Programming | [Java](./0118-pascals-triangle/Solution.java) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | Array, Dynamic Programming | [Java](./0119-pascals-triangle-ii/Solution.java) |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | Array, Bit Manipulation | [Java](./0136-single-number/Solution.java) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Array, Two Pointers, Binary Search | [Java](./0167-two-sum-ii-input-array-is-sorted/Solution.java) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | Hash Table, Math, Two Pointers | [Java](./0202-happy-number/Solution.java) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Array, Hash Table, Sorting | [Java](./0217-contains-duplicate/Solution.java) |
