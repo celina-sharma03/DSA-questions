@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 21
+**Total solved:** 22
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -32,6 +32,7 @@ time/space complexity.
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Hash Table, String, Sorting | [Java](./0242-valid-anagram/Solution.java) |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | Array, Hash Table, Math, Bit Manipulation, Sorting | [Java](./0268-missing-number/Solution.java) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | Hash Table, String | [Java](./0290-word-pattern/Solution.java) |
+| 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | Array, Design, Prefix Sum | [Java](./0303-range-sum-query-immutable/NumArray.java) |
 
 ## Repo layout
 
