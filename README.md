@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 23
+**Total solved:** 24
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -28,6 +28,7 @@ time/space complexity.
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | Array, Dynamic Programming | [Java](./0119-pascals-triangle-ii/Solution.java) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | Array, Bit Manipulation | [Java](./0136-single-number/Solution.java) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Array, Two Pointers, Binary Search | [Java](./0167-two-sum-ii-input-array-is-sorted/Solution.java) |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | Array, DFS, BFS, Union Find, Matrix | [Java](./0200-number-of-islands/Solution.java) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | Hash Table, Math, Two Pointers | [Java](./0202-happy-number/Solution.java) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Array, Hash Table, Sorting | [Java](./0217-contains-duplicate/Solution.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Hash Table, String, Sorting | [Java](./0242-valid-anagram/Solution.java) |
