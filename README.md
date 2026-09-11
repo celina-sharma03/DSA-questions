@@ -7,36 +7,49 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 26
+**Total solved:** 39
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Array, Hash Table | [Java](./0001-two-sum/Solution.java) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | Array, Binary Search, Divide and Conquer | [Java](./0004-median-of-two-sorted-arrays/Solution.java) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | String, Dynamic Programming, Two Pointers | [Java](./0005-longest-palindromic-substring/Code.java) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | Math | [Java](./0007-reverse-integer/Solution.java) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math, Two Pointers | [Java](./0009-palindrome-number/Solution.java) |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | Hash Table, Math, String | [Java](./0012-integer-to-roman/Solution.java) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | Hash Table, Math, String | [Java](./0013-roman-to-integer/Solution.java) |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | String, Trie | [Java](./0014-longext-common-prefix/Code.java) |
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | Array, Two Pointers, Sorting | [Java](./0016-3Sum-closest/Solution.java) |
+| 18 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | Array, Two Pointers, Sorting | [Java](./0018-4Sum/Code.java) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | String, Stack | [Java](./0020-valid-parentheses/Solution.java) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | String, Backtracking, Dynamic Programming | [Java](./0022-generate-parentheses/Solution.java) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | Array, Two Pointers | [Java](./0026-remove-duplicates-from-sorted-array/Solution.java) |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | Array, Two Pointers | [Java](./0031-next-permutation/Code.java) |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | Array, Binary Search | [Java](./0033-search-in-rotated-sorted-array/Solution.java) |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | Array, Binary Search | [Java](./0034-find-first-and-last-pos-in-sorted-array/Solution.java) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Array, Binary Search | [Java](./0035-search-insert-position/Solution.java) |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | Medium | String | [Java](./0038-count-and-say/Solution.java) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | Math, String, Bit Manipulation, Simulation | [Java](./0067-add-binary/Solution.java) |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | Math, Binary Search | [Java](./0069-sqrt-x/Solution.java) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | Array, Two Pointers, Sorting | [Java](./0075-sort-colors/Solution.java) |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | Stack, Tree, DFS, Binary Tree | [Java](./0094-binary-tree-inorder-traversal/code.java) |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | Tree, DFS, BFS, Binary Tree | [Java](./0112-Path-Sum/Code.java) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | Array, Dynamic Programming | [Java](./0118-pascals-triangle/Solution.java) |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | Array, Dynamic Programming | [Java](./0119-pascals-triangle-ii/Solution.java) |
+| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium | Array, DFS, BFS, Union Find, Matrix | [Java](./0130-surrounded-regions/Code.java) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | Array, Bit Manipulation | [Java](./0136-single-number/Solution.java) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | Array, Two Pointers, Binary Search | [Java](./0167-two-sum-ii-input-array-is-sorted/Solution.java) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | Array, Dynamic Programming | [Java](./0198-house-robber/Solution.java) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | Array, DFS, BFS, Union Find, Matrix | [Java](./0200-number-of-islands/Solution.java) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | Hash Table, Math, Two Pointers | [Java](./0202-happy-number/Solution.java) |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | Array, Dynamic Programming | [Java](./0213-house-robber-2/Solution.java) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Array, Hash Table, Sorting | [Java](./0217-contains-duplicate/Solution.java) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Hash Table, String, Sorting | [Java](./0242-valid-anagram/Solution.java) |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | Array, Hash Table, Math, Bit Manipulation, Sorting | [Java](./0268-missing-number/Solution.java) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | Hash Table, String | [Java](./0290-word-pattern/Solution.java) |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | Array, Binary Search, Dynamic Programming | [Java](./0300-longest-increasing-subsequence/Solution.java) |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | Array, Design, Prefix Sum | [Java](./0303-range-sum-query-immutable/NumArray.java) |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Array, Dynamic Programming, BFS | [Java](./0322-coin-change/Coin.java) |
 
 ## Repo layout
 
