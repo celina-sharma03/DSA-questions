@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 39
+**Total solved:** 40
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -29,6 +29,7 @@ time/space complexity.
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | Array, Binary Search | [Java](./0034-find-first-and-last-pos-in-sorted-array/Solution.java) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Array, Binary Search | [Java](./0035-search-insert-position/Solution.java) |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | Medium | String | [Java](./0038-count-and-say/Solution.java) |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Array, Backtracking | [Java](./0039-combination-sum/Solution.java) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | Math, String, Bit Manipulation, Simulation | [Java](./0067-add-binary/Solution.java) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | Math, Binary Search | [Java](./0069-sqrt-x/Solution.java) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | Array, Two Pointers, Sorting | [Java](./0075-sort-colors/Solution.java) |
