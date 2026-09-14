@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 40
+**Total solved:** 41
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -30,6 +30,7 @@ time/space complexity.
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Array, Binary Search | [Java](./0035-search-insert-position/Solution.java) |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | Medium | String | [Java](./0038-count-and-say/Solution.java) |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Array, Backtracking | [Java](./0039-combination-sum/Solution.java) |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | [Java](./0042-trapping-rain-water/Solution.java) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | Math, String, Bit Manipulation, Simulation | [Java](./0067-add-binary/Solution.java) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | Math, Binary Search | [Java](./0069-sqrt-x/Solution.java) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | Array, Two Pointers, Sorting | [Java](./0075-sort-colors/Solution.java) |
