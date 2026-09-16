@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 42
+**Total solved:** 43
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -30,6 +30,7 @@ time/space complexity.
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Array, Binary Search | [Java](./0035-search-insert-position/Solution.java) |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | Medium | String | [Java](./0038-count-and-say/Solution.java) |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Array, Backtracking | [Java](./0039-combination-sum/Solution.java) |
+| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | Array, Hash Table | [Java](./0041-first-missing-positive/Solution.java) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | [Java](./0042-trapping-rain-water/Solution.java) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | Array, Backtracking | [Java](./0046-permutations/Solution.java) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | Math, String, Bit Manipulation, Simulation | [Java](./0067-add-binary/Solution.java) |
