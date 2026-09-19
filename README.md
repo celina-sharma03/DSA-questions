@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 45
+**Total solved:** 46
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -34,6 +34,7 @@ time/space complexity.
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | [Java](./0042-trapping-rain-water/Solution.java) |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | String, Dynamic Programming, Greedy, Recursion | [Java](./0044-wildcard-matching/Solution.java) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | Array, Backtracking | [Java](./0046-permutations/Solution.java) |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/pow-x-n/) | Medium | Math, Recursion | [Java](./0050-pow-x-n/Solution.java) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | Math, String, Bit Manipulation, Simulation | [Java](./0067-add-binary/Solution.java) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | Math, Binary Search | [Java](./0069-sqrt-x/Solution.java) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | Array, Hash Table, Matrix | [Java](./0073-set-matrix-zeroes/Solution.java) |
