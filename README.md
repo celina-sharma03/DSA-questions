@@ -7,7 +7,7 @@ time/space complexity.
 
 ## Progress
 
-**Total solved:** 50
+**Total solved:** 51
 
 | # | Problem | Difficulty | Topics | Solution |
 |---|---------|------------|--------|----------|
@@ -39,6 +39,7 @@ time/space complexity.
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | Array, Sorting | [Java](./0056-merge-intervals/Solution.java) |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | String | [Java](./0058-length-of-last-word/Solution.java) |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | Math, Dynamic Programming, Combinatorics | [Java](./0062-unique-paths/Solution.java) |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | Array, Dynamic Programming, Matrix | [Java](./0063-unique-paths-ii/Solution.java) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | Math, String, Bit Manipulation, Simulation | [Java](./0067-add-binary/Solution.java) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | Math, Binary Search | [Java](./0069-sqrt-x/Solution.java) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | Array, Hash Table, Matrix | [Java](./0073-set-matrix-zeroes/Solution.java) |
